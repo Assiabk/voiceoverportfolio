@@ -37,14 +37,14 @@ export default function ServicesSection() {
 
   // audio demos (kept as before)
   const demos = [
-    { id: 1, fileName: "1.mp4", title: "Commercial Demo" },
-    { id: 2, fileName: "2.mp4", title: "Narration Demo" },
-    { id: 4, fileName: "4.mp4", title: "E-learning Demo" },
-    { id: 5, fileName: "5.mp4", title: "Character Demo" },
-    { id: 6, fileName: "6.mp4", title: "Promo Demo" },
-    { id: 7, fileName: "7.mp4", title: "Documentary Demo" },
-    { id: 8, fileName: "8.mp4", title: "IVR Demo" },
-    { id: 9, fileName: "9.mp4", title: "Trailer Demo" },
+    { id: 1, fileName: "1.mp4",},
+    { id: 2, fileName: "2.mp4",},
+    { id: 4, fileName: "4.mp4", },
+    { id: 5, fileName: "5.mp4",  },
+    { id: 6, fileName: "6.mp4",  },
+    { id: 7, fileName: "7.mp4",  },
+    { id: 8, fileName: "8.mp4", },
+    { id: 9, fileName: "9.mp4",  },
   ];
 
   const itemVariants = { hidden: { y: 20, opacity: 0 }, visible: { y: 0, opacity: 1, transition: { duration: 0.7 } } };
